@@ -1,0 +1,24 @@
+################################
+Login: cat
+Passowrd: cat
+Pepper: generatePepper
+Salt: generateSalt
+Passowrd ready to be hashed: catgeneratePeppergenerateSalt
+HASHBYSHASUM: echo -n $PASSWORD_TO_HASH | shasum -a 512
+HASH_READY: echo
+READY TO WRITE IN OUTPUT FILE
+login:hasedpassword:salt
+cat:echo:generateSalt
+################################
+################################
+Login: $1
+Passowrd: $1
+Pepper: generatePepper
+Salt: generateSalt
+Passowrd ready to be hashed: $1generatePeppergenerateSalt
+HASHBYSHASUM: echo -n $PASSWORD_TO_HASH | shasum -a 512
+HASH_READY: echo
+READY TO WRITE IN OUTPUT FILE
+login:hasedpassword:salt
+$1:echo:generateSalt
+################################

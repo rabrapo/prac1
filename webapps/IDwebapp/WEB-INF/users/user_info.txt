@@ -1,0 +1,5 @@
+Ursula Iguarán:Gerente:ursula:ac,gcfp,gnt,gcp
+José Arcadio:Jefe de Ventas:jose:gcfp
+Aureliano Buendia:Jefe de Personal:aureliano:gnt
+Renata Remedios:Jefe de Compras:renata:gcp
+Amaranta Úrsula:Auditor:amaranta:a
