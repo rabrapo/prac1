@@ -22,12 +22,12 @@
   <body>
     <div class="content">
       <div class="row">
-        <div class="col">
+        <div class="col-sm-auto offset-sm-2">
           <h1>Sistema de Gestión</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col-sm-auto offset-sm-2">
           <p>
             <a href="secure/menu.jsp">Acceso al Sistema</a>
           </p>

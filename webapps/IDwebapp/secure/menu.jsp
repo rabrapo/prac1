@@ -8,7 +8,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Home Page</title>
+    <title>IDwebapp MENU</title>
     <style> #verde { color: #008000; } </style>
   </head>
   <body>
@@ -21,10 +21,7 @@
       <div class="row justify-content-sm-right">
         <div class="col-sm-auto offset-sm-1">
           <p>Hola <%=request.getUserPrincipal().getName()%>; este es el menú de la aplicación:</p>
-
           <p>Este es el login que has utilizado: <%=request.getRemoteUser()%></p>
-        </div>
-        <div class="col-sm-auto">
           <p>Nota: sólo puedes acceder a los enlaces de color verde.<p>
         </div>
       </div>
@@ -67,7 +64,7 @@
       </div>
       <div class="row justify-content-sm-right">
         <div class="col-sm-auto offset-sm-1">
-          <h3>Módulo Personal</h3></td>
+          <h3>Módulo Nóminas</h3></td>
           <% if(request.isUserInRole("gnt")) { %>
             <p><a id="verde" href="nominas/gestion_nominas.jsp">Operación: gestionar nóminas</a></p>
           <% } else { %>

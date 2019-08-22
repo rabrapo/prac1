@@ -30,7 +30,7 @@ public class ShadowPasswords {
   public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
     LeerFichero lf = new LeerFichero();
 
-    HashMap<String, String> mapa = lf.leerEnMapa("/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_planos.txt");
+    HashMap<String, String> mapa = lf.leerEnMapa("/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_planos.txt");
     List<String> listaSalada = new ArrayList<>();
     System.out.println("###########");
     System.out.println("ENTRADA.TXT");
@@ -52,8 +52,8 @@ public class ShadowPasswords {
 
     //lf.mostrarHashMap(mapa);
     //Guardar claves en fichero salida.txt
-    lf.escribirMapa(mapa, "/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
-    HashMap<String, String> mapa1 = lf.leerEnMapa("/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+    lf.escribirMapa(mapa, "/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+    HashMap<String, String> mapa1 = lf.leerEnMapa("/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
     System.out.println("###########");
     System.out.println("SALIDA.TXT");
     lf.mostrarHashMap(mapa1);
@@ -63,7 +63,7 @@ public class ShadowPasswords {
     while(i.hasNext()) {
       System.out.println(i.next().toString());
     }
-    lf.addSal(listaSalada, "/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+    lf.addSal(listaSalada, "/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
     System.out.println("###########");
     //ReadUserPassword rup = new ReadUserPassword();
     System.out.println("###########");
@@ -221,7 +221,7 @@ public class ShadowPasswords {
   public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
     LeerFichero lf = new LeerFichero();
 
-    HashMap<String, String> mapa = lf.leerEnMapa("/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_planos.txt");
+    HashMap<String, String> mapa = lf.leerEnMapa("/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_planos.txt");
     List<String> listaSalada = new ArrayList<String>();
     System.out.println("###########");
     System.out.println("ENTRADA.TXT");
@@ -243,8 +243,8 @@ public class ShadowPasswords {
 
     //lf.mostrarHashMap(mapa);
     //Guardar claves en fichero salida.txt
-    lf.escribirMapa(mapa, "/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
-    HashMap<String, String> mapa1 = lf.leerEnMapa("/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+    lf.escribirMapa(mapa, "/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+    HashMap<String, String> mapa1 = lf.leerEnMapa("/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
     System.out.println("###########");
     System.out.println("SALIDA.TXT");
     lf.mostrarHashMap(mapa1);
@@ -254,7 +254,7 @@ public class ShadowPasswords {
     while(i.hasNext()) {
       System.out.println(i.next().toString());
     }
-    lf.addSal(listaSalada, "/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+    lf.addSal(listaSalada, "/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
   }
 
 }

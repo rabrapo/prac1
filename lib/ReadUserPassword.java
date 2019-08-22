@@ -12,7 +12,7 @@ class ReadUserPassword {
 
   public ReadUserPassword() {
     try {
-      archivo = new File("/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
+      archivo = new File("/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/passwords_hasheds.txt");
       fr = new FileReader(archivo);
       br = new BufferedReader(fr);
 
@@ -47,7 +47,7 @@ class ReadUserPassword {
       }
     }
     try {
-      archivo2 = new File("/usr/local/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/user_info.txt");
+      archivo2 = new File("/opt/apache-tomcat-9.0.17/webapps/IDwebapp/WEB-INF/users/user_info.txt");
       fr2 = new FileReader(archivo2);
       br2 = new BufferedReader(fr2);
 

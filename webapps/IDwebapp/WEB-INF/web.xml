@@ -201,17 +201,9 @@
     <!-- Security roles referenced by this web application -->
     <security-role>
       <role-name>ac</role-name>
-    </security-role>
-    <security-role>
       <role-name>gcfp</role-name>
-    </security-role>
-    <security-role>
       <role-name>gnt</role-name>
-    </security-role>
-    <security-role>
       <role-name>gcp</role-name>
-    </security-role>
-    <security-role>
       <role-name>a</role-name>
     </security-role>
 
