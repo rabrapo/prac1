@@ -213,7 +213,7 @@
 
     <error-page>
       <error-code>403</error-code>
-      <location>/error.html</location>
+      <location>/error.jsp</location>
     </error-page>
 
 </web-app>

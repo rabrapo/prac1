@@ -21,7 +21,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h3><a href='<%= response.encodeURL("/secure/menu.jsp")%>'> Go back to the main menu.</a></h3>
+        <h3><a href="../menu.jsp"> Go back to the main menu.</a></h3>
       </div>
     </div>
   </body>
