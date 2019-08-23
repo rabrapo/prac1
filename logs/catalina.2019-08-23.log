@@ -568,3 +568,93 @@ Caused by: java.lang.IllegalArgumentException: La localización de la página de
 23-Aug-2019 11:53:13.216 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 23-Aug-2019 11:53:13.250 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 23-Aug-2019 11:53:13.283 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Aug-2019 12:16:53.233 ADVERTENCIA [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Engine/Realm] failed to set property [userClassName] to [PlainUserPrincipal]
+23-Aug-2019 12:16:53.239 ADVERTENCIA [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Engine/Realm] failed to set property [roleClassName] to [PlainRolePrincipal]
+23-Aug-2019 12:16:53.297 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/9.0.17
+
+23-Aug-2019 12:16:53.299 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 13 2019 15:55:27 UTC
+23-Aug-2019 12:16:53.299 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.17.0
+23-Aug-2019 12:16:53.299 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Aug-2019 12:16:53.300 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.9.0-8-amd64
+
+23-Aug-2019 12:16:53.301 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          amd64
+
+23-Aug-2019 12:16:53.301 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+23-Aug-2019 12:16:53.301 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-8u222-b10-1~deb9u1-b10
+23-Aug-2019 12:16:53.302 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+23-Aug-2019 12:16:53.303 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/apache-tomcat-9.0.17
+23-Aug-2019 12:16:53.304 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/apache-tomcat-9.0.17
+23-Aug-2019 12:16:53.305 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/apache-tomcat-9.0.17/conf/logging.properties
+23-Aug-2019 12:16:53.305 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Aug-2019 12:16:53.306 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config==/opt/apache-tomcat-9.0.17/conf/jaas.config
+23-Aug-2019 12:16:53.307 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Aug-2019 12:16:53.310 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Aug-2019 12:16:53.311 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Aug-2019 12:16:53.311 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Aug-2019 12:16:53.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/apache-tomcat-9.0.17
+23-Aug-2019 12:16:53.312 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/apache-tomcat-9.0.17
+23-Aug-2019 12:16:53.313 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/apache-tomcat-9.0.17/temp
+23-Aug-2019 12:16:53.313 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+23-Aug-2019 12:16:53.770 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Aug-2019 12:16:54.133 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["ajp-nio-8009"]
+
+23-Aug-2019 12:16:54.155 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [2.568] milliseconds
+23-Aug-2019 12:16:54.422 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Aug-2019 12:16:54.428 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.17]
+23-Aug-2019 12:16:54.531 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/opt/apache-tomcat-9.0.17/webapps/IDwebapp] de la aplicación web
+23-Aug-2019 12:16:55.621 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/apache-tomcat-9.0.17/webapps/IDwebapp] has finished in [1.091] ms
+23-Aug-2019 12:16:55.623 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/opt/apache-tomcat-9.0.17/webapps/manager] de la aplicación web
+23-Aug-2019 12:16:55.732 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/apache-tomcat-9.0.17/webapps/manager] has finished in [109] ms
+23-Aug-2019 12:16:55.743 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/opt/apache-tomcat-9.0.17/webapps/docs] de la aplicación web
+23-Aug-2019 12:16:55.815 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/apache-tomcat-9.0.17/webapps/docs] has finished in [71] ms
+23-Aug-2019 12:16:55.815 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/opt/apache-tomcat-9.0.17/webapps/host-manager] de la aplicación web
+23-Aug-2019 12:16:55.880 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/apache-tomcat-9.0.17/webapps/host-manager] has finished in [65] ms
+23-Aug-2019 12:16:55.886 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/opt/apache-tomcat-9.0.17/webapps/ROOT] de la aplicación web
+23-Aug-2019 12:16:55.965 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/apache-tomcat-9.0.17/webapps/ROOT] has finished in [78] ms
+23-Aug-2019 12:16:55.966 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/opt/apache-tomcat-9.0.17/webapps/examples] de la aplicación web
+23-Aug-2019 12:16:57.175 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/apache-tomcat-9.0.17/webapps/examples] has finished in [1.210] ms
+23-Aug-2019 12:16:57.189 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Aug-2019 12:16:57.258 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Aug-2019 12:16:57.341 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [3.170] milliseconds
+23-Aug-2019 12:17:30.822 ADVERTENCIA [http-nio-8080-exec-4] org.apache.catalina.realm.JAASRealm.authenticate Excepción de Login autenticando nombre de usuario [loco]
+ javax.security.auth.login.LoginException: Authentication failed
+	at PlainLoginModule.login(PlainLoginModule.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.security.auth.login.LoginContext.invoke(LoginContext.java:755)
+	at javax.security.auth.login.LoginContext.access$000(LoginContext.java:195)
+	at javax.security.auth.login.LoginContext$4.run(LoginContext.java:682)
+	at javax.security.auth.login.LoginContext$4.run(LoginContext.java:680)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:680)
+	at javax.security.auth.login.LoginContext.login(LoginContext.java:587)
+	at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:407)
+	at org.apache.catalina.realm.JAASRealm.authenticate(JAASRealm.java:324)
+	at org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate(FormAuthenticator.java:264)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:572)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Aug-2019 12:19:39.524 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Aug-2019 12:19:39.526 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Aug-2019 12:19:39.534 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Aug-2019 12:19:39.542 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Aug-2019 12:19:39.749 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Aug-2019 12:19:39.783 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Aug-2019 12:19:39.793 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Aug-2019 12:19:39.803 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
