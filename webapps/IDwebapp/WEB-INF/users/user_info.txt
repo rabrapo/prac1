@@ -1,5 +1,5 @@
-Ursula Iguarán:Gerente:ursula:ac,gcfp,gnt,gcp
-José Arcadio:Jefe de Ventas:jose:gcfp
-Aureliano Buendia:Jefe de Personal:aureliano:gnt
-Renata Remedios:Jefe de Compras:renata:gcp
-Amaranta Úrsula:Auditor:amaranta:a
+Ender Wiggin:Gerente:ender:ac,gcfp,gnt,gcp
+Petra Arkanian:Jefe de Ventas:petra:gcfp
+Bonzo Madrid:Jefe de Personal:bonzo:gnt
+Carn Carby:Jefe de Compras:carn:gcp
+Dink Meeker:Auditor:dink:a

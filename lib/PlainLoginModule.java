@@ -102,12 +102,12 @@ public class PlainLoginModule implements LoginModule {
     //Ha sido modificado a partir del código de github para que funcione acorde a la
     //estructura estipulada:
     //password:pepper:salt
-    private static String SHA256once(String toHash, String salt, String pepper) {
+    private static String SHA3512once(String toHash, String salt, String pepper) {
       MessageDigest md;
       String message = toHash + salt + pepper;
 
       try {
-        md = MessageDigest.getInstance("SHA-256");
+        md = MessageDigest.getInstance("SHA3-512");
 
         md.update(message.getBytes());
         byte[] mb = md.digest();
@@ -149,19 +149,19 @@ public class PlainLoginModule implements LoginModule {
             String name = ((NameCallback) callbacks[0]).getName();
             String password = String.valueOf(((PasswordCallback) callbacks[1]).getPassword());
 
-            if(!readUserPassword.getUsersPasswords().containsKey(name)) { //aquí hay un NullPointerException
+            if(!readUserPassword.getUsersPasswords().containsKey(name)) {
               throw new LoginException("Authentication failed");
             }else{
               int pepper = 0;
               boolean found = false;
               Prac1User userAux = readUserPassword.getUsersPasswords().get(name);
               while(pepper < 1000 && !found) {
-                String sha256 = SHA256once(password, userAux.getSalt(), String.valueOf(pepper));
-                System.out.println("SHA-256 generado " + sha256);
+                String sha3512 = SHA3512once(password, userAux.getSalt(), String.valueOf(pepper));
+                System.out.println("SHA3-512 generado " + sha3512);
                 System.out.println("SHA   ALMACENADO " + userAux.getHash());
                 System.out.println();
 
-                if(sha256.equals(userAux.getHash())) {
+                if(sha3512.equals(userAux.getHash())) {
                   System.out.println("Password correcto");
                   System.out.println("Pepper exitoso: " + String.valueOf(pepper));
                   login = name;

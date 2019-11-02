@@ -131,8 +131,8 @@ class LeerFichero {
   }
 
   public byte[] getSHA(String input) throws NoSuchAlgorithmException{
-    // Static getInstance method is called with hashing SHA
-    MessageDigest md = MessageDigest.getInstance("SHA-256");
+    // Static getInstance method is called with hashing SHA3-512
+    MessageDigest md = MessageDigest.getInstance("SHA3-512");
 
     // digest() method called
     // to calculate message digest of an input
